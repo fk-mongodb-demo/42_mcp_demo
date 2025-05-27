@@ -1,4 +1,4 @@
-# An LLM-Powered Chatbot MCP Client written in TypeScript
+# An LLM-Powered MongoDB MCP Demo Written in TypeScript
 
 Refer to MongoDB MCP Server [Blog](https://www.mongodb.com/blog/post/announcing-mongodb-mcp-server).
 
