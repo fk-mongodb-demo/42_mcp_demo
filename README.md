@@ -79,3 +79,56 @@ Query:
 * find 5 documents in sample_restaurants database and restaurants collection with cuisine:American
 * create new collection 'test123' in database 'testdb'
 * insert new document with 2 fields; id:1 and code:2 in collection named 'test123' in the database 'testdb'
+
+## Sample responses
+
+Query: 
+```
+find 5 documents in sample_restaurants database and restaurants collection with cuisine:American
+```
+
+Response:
+```
+Query: find 5 documents in sample_restaurants database and restaurants collection with cuisine:American
+
+I'll help you find 5 documents from the sample_restaurants.restaurants collection where the cuisine is American. I'll use the `find` tool with appropriate filter, limit, and collection parameters.
+[Calling tool find with args {"database":"sample_restaurants","collection":"restaurants","filter":{"cuisine":"American"},"limit":5}]
+Here's a more readable format of the 5 American restaurants found:
+
+1. Riviera Caterer
+- Borough: Brooklyn
+- Address: 2780 Stillwell Avenue
+- Zipcode: 11224
+- Latest Grade: A
+
+2. Brunos On The Boulevard
+- Borough: Queens
+- Address: 8825 Astoria Boulevard
+- Zipcode: 11369
+- Latest Grade: Z
+
+3. Regina Caterers
+- Borough: Brooklyn
+- Address: 6409 11 Avenue
+- Zipcode: 11219
+- Latest Grade: A
+
+4. The Movable Feast
+- Borough: Brooklyn
+- Address: 284 Prospect Park West
+- Zipcode: 11215
+- Latest Grade: A
+
+5. Wild Asia
+- Borough: Bronx
+- Address: 2300 Southern Boulevard
+- Zipcode: 10460
+- Latest Grade: A
+
+Distribution by Borough:
+- Brooklyn: 3 restaurants
+- Queens: 1 restaurant
+- Bronx: 1 restaurant
+
+Most restaurants (4 out of 5) have an 'A' grade in their most recent inspection, with only Brunos On The Boulevard having a 'Z' grade.
+```
